@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Bank</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="image/png-transparent-bc-card-payment-card-number-industrial-bank-of-korea-woori-bank-red-circle-logo-bank-android.png" type="image/x-icon">
+</head>
+<body>
+   <section id="Login-bar">
+    <h1 class="NumberBank text-center mt-5">Welcome To Number Bank</h1>
+    <div class="container">
+        <div class="loginPage">
+            <div class="row mt-5">
+                <div id="Login-area" class="col-md-6 m-auto bg-blue p-5 text-center">
+                    <h5>Email</h5>
+                    <input type="email" class="form-control" placeholder="Email" name="" id="">
+                    <br>
+                    <br>
+                    <h5>Password</h5>
+                    <input type="password" class="form-control" placeholder="Password" name="" id="">
+                    <br>
+                    <br>
+                    <button id="Submit" class="btn btn-danger">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+   </section>
+   <section id="bank-area">
+    <div class="container mt-5">
+        <h1 class="NumberBank text-center mb-5">Here is Your Acount</h1>
+        <div class="row m-auto">
+            <div class="col-md-4 ">
+                <div class="cat1">
+                    <h5>Deposit</h5>
+                    <h1>$<span id="desposit-Value">00</span></h1>
+                </div>
+            </div>
+            <div class="col-md-4 ">
+                <div class="cat2">
+                     <h5>Withdraw</h5>
+                     <h1>$ <span id="withDraw-value">00</span></h1>
+                </div>
+            </div>
+            <div class="col-md-4 ">
+               <div class="cat3">
+                <h5>Balance</h5>
+                <h1>$ <span id="balance-Balue">1200</span></h1>
+               </div>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-6">
+                <div class="diposit-are p-5" id="Login-area">
+                <h5>Dposit Amount</h5>
+                <input id="Deposit-Value" type="number" placeholder="$ Amout You need to deposit" class="form-control" name="" id="">
+                <br>
+                <br>
+                <button id="DepositBUtton"  class="btn btn-success">Deposit</button>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="withdraw-area p-5" id="Login-area">
+                <h5>Withdraw Amount</h5>
+                <input type="number" placeholder="$ Amout You need to withdraw" id="Input2" class="form-control" name="" id="">
+                <br>
+                <br>
+                <button id="withdrawBUtton"   class="btn btn-success">Withdraw</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+   <script src="script.js"></script>
+</body>
+</html>

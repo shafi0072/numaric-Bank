@@ -1,0 +1,28 @@
+.NumberBank{
+    font-family: 'Righteous', cursive;
+    color: tomato;
+}
+#Login-area h5{
+    color: gray;
+}
+#Login-area{
+    box-shadow: 5px 5px 10px lightgray;
+    border-radius: 20px;
+}
+#bank-area{
+    display: none;
+}
+.cat1{
+    background-image: linear-gradient(tomato, lightsalmon);
+}
+.cat2{
+    background-image: linear-gradient(blue, skyblue);
+}
+.cat3{
+    background-image: linear-gradient(red,orange);
+}
+.cat1, .cat2, .cat3{
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+}
